@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [teja1]
+    WITH PASSWORD = N'z{DQc{O{zipg!bZajls?kAjgmsFT7_&#$!~<k}j0betsxho`', SID = 0xCB2252650D0A504585D67C608DF35149, DEFAULT_DATABASE = [Employee], DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+

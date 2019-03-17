@@ -1,0 +1,75 @@
+17-Mar-19 2:51:54 PM	This log contains information about the import schema operation into project 'Demo' on computer 'RAVITEJA' by user 'Teja'.
+17-Mar-19 2:51:55 PM	Import of database schema has started.
+17-Mar-19 2:52:04 PM	Gathering database options
+17-Mar-19 2:52:04 PM	Gathering users
+17-Mar-19 2:52:04 PM	Gathering roles
+17-Mar-19 2:52:04 PM	Gathering application roles
+17-Mar-19 2:52:04 PM	Gathering role memberships
+17-Mar-19 2:52:04 PM	Gathering filegroups
+17-Mar-19 2:52:04 PM	Gathering full-text catalogs
+17-Mar-19 2:52:04 PM	Gathering assemblies
+17-Mar-19 2:52:04 PM	Gathering certificates
+17-Mar-19 2:52:04 PM	Gathering asymmetric keys
+17-Mar-19 2:52:04 PM	Gathering symmetric keys
+17-Mar-19 2:52:04 PM	Gathering encrypted symmetric keys
+17-Mar-19 2:52:04 PM	Gathering schemas
+17-Mar-19 2:52:04 PM	Gathering XML schema collections
+17-Mar-19 2:52:04 PM	Gathering user-defined data types
+17-Mar-19 2:52:04 PM	Gathering user-defined types
+17-Mar-19 2:52:04 PM	Gathering table types
+17-Mar-19 2:52:04 PM	Gathering unique keys for table types
+17-Mar-19 2:52:04 PM	Gathering primary keys for table types
+17-Mar-19 2:52:04 PM	Gathering check constraints for table types
+17-Mar-19 2:52:04 PM	Gathering default constraints for table types
+17-Mar-19 2:52:04 PM	Gathering partition functions
+17-Mar-19 2:52:05 PM	Gathering partition schemes
+17-Mar-19 2:52:05 PM	Gathering functions
+17-Mar-19 2:52:05 PM	Gathering encrypted functions
+17-Mar-19 2:52:05 PM	Gathering aggregates
+17-Mar-19 2:52:05 PM	Gathering procedures
+17-Mar-19 2:52:05 PM	Gathering encrypted procedures
+17-Mar-19 2:52:05 PM	Gathering tables
+17-Mar-19 2:52:05 PM	Gathering primary keys
+17-Mar-19 2:52:05 PM	Gathering unique constraints
+17-Mar-19 2:52:05 PM	Gathering foreign keys
+17-Mar-19 2:52:05 PM	Gathering default constraints
+17-Mar-19 2:52:05 PM	Gathering check constraints
+17-Mar-19 2:52:05 PM	Gathering views
+17-Mar-19 2:52:05 PM	Gathering encrypted views
+17-Mar-19 2:52:05 PM	Gathering indexes
+17-Mar-19 2:52:05 PM	Gathering statistics
+17-Mar-19 2:52:05 PM	Gathering full-text index stoplists
+17-Mar-19 2:52:05 PM	Gathering search property lists
+17-Mar-19 2:52:05 PM	Gathering search properties
+17-Mar-19 2:52:05 PM	Gathering full-text indexes
+17-Mar-19 2:52:05 PM	Gathering column store indexes
+17-Mar-19 2:52:05 PM	Gathering spatial indexes
+17-Mar-19 2:52:05 PM	Gathering XML indexes
+17-Mar-19 2:52:05 PM	Gathering encrypted triggers
+17-Mar-19 2:52:05 PM	Gathering triggers
+17-Mar-19 2:52:05 PM	Gathering encrypted and clr ddl triggers
+17-Mar-19 2:52:05 PM	Gathering ddl triggers
+17-Mar-19 2:52:05 PM	Gathering synonyms
+17-Mar-19 2:52:05 PM	Gathering defaults
+17-Mar-19 2:52:05 PM	Gathering data constraint uddt bindings
+17-Mar-19 2:52:05 PM	Gathering rules
+17-Mar-19 2:52:05 PM	Gathering data constraint uddt bindings
+17-Mar-19 2:52:05 PM	Gathering message types
+17-Mar-19 2:52:05 PM	Gathering queues
+17-Mar-19 2:52:05 PM	Gathering contracts
+17-Mar-19 2:52:05 PM	Gathering services
+17-Mar-19 2:52:05 PM	Gathering event notifications
+17-Mar-19 2:52:05 PM	Gathering remote service bindings
+17-Mar-19 2:52:05 PM	Gathering broker priorities
+17-Mar-19 2:52:05 PM	Gathering signatures
+17-Mar-19 2:52:05 PM	Gathering data compression options
+17-Mar-19 2:52:05 PM	Gathering sequence types
+17-Mar-19 2:52:05 PM	Gathering extended properties
+17-Mar-19 2:52:05 PM	Gathering credentials
+17-Mar-19 2:52:05 PM	Gathering logins
+17-Mar-19 2:52:05 PM	Gathering server audits
+17-Mar-19 2:52:07 PM	Scanning project for duplicate elements
+17-Mar-19 2:52:08 PM	Finished duplicate element processing
+17-Mar-19 2:52:09 PM	Finished importing database.
+17-Mar-19 2:52:09 PM	A summary of the import was saved to the following location: C:\Users\Teja\Documents\Visual Studio 2015\Projects\Demo\Demo\Import Schema Logs\Demo_20190317092154.log
+17-Mar-19 2:52:09 PM	Click Finish to continue...
