@@ -9,5 +9,5 @@
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-create user teamcity
+CREATE USER CustomApp WITHOUT LOGIN ;
 GO

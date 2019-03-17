@@ -1,1 +1,1 @@
-﻿create user teamcity
+﻿CREATE USER CustomApp WITHOUT LOGIN ;
