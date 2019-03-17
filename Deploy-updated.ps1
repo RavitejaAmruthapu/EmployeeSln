@@ -38,7 +38,7 @@ try {
 catch [Microsoft.SqlServer.Dac.DacServicesException] {
     throw ('Deployment failed: ''{0}'' Reason: ''{1}''' -f $_.Exception.Message, $_.Exception.InnerException.Message)
 }
-$dacServices.Close()
+$ConnectionString.Close()
 Write-Host 'Connection closed!'
 
 
