@@ -25,8 +25,8 @@ $dacPackage = [Microsoft.SqlServer.Dac.DacPackage]::Load($Dacpac)
 
 # Setup DacServices
 #$server = "server=$targetConnectionString"
-$server = New-Object System.Data.SqlClient.SqlConnection
-$server.ConnectionString = "$ConnectionString"
+#$server = New-Object System.Data.SqlClient.SqlConnection
+$server = "$ConnectionString"
 $dacServices = New-Object Microsoft.SqlServer.Dac.DacServices $server
 
 # Deploy package
@@ -39,7 +39,7 @@ try {
 catch [Microsoft.SqlServer.Dac.DacServicesException] {
     throw ('Deployment failed: ''{0}'' Reason: ''{1}''' -f $_.Exception.Message, $_.Exception.InnerException.Message)
 }
-$server.Close()
+#$server.Close()
 Write-Host 'Connection closed!'
 
 
