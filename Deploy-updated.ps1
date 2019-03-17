@@ -25,6 +25,7 @@ $dacPackage = [Microsoft.SqlServer.Dac.DacPackage]::Load($Dacpac)
 
 # Setup DacServices
 #$server = "server=$targetConnectionString"
+#$server = New-Object System.Data.SqlClient.SqlConnection
 $server = "$ConnectionString"
 $dacServices = New-Object Microsoft.SqlServer.Dac.DacServices $server
 
@@ -38,6 +39,8 @@ try {
 catch [Microsoft.SqlServer.Dac.DacServicesException] {
     throw ('Deployment failed: ''{0}'' Reason: ''{1}''' -f $_.Exception.Message, $_.Exception.InnerException.Message)
 }
+#$server.Close()
+Write-Host 'Connection closed!'
 
 
 #C:\Users\Teja\Desktop\deploy.ps1 -targetConnectionString "server=(local);Data Source=RAVITEJA;Persist Security Info=True;User ID=sa;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ART1" -Profile "ART"
