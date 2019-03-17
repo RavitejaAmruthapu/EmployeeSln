@@ -33,9 +33,11 @@ try {
     Write-Host 'Starting Dacpac deployment...'
     $dacServices.GenerateDeployScript($dacPackage, $targetDatabaseName, $dacProfile.DeployOptions) | Out-File "$logs\$targetDatabaseName.sql"
     $dacServices.Deploy($dacPackage, $targetDatabaseName, $true, $null)
+    $dacServices.Close()
     Write-Host 'Deployment succeeded!'
 }
 catch [Microsoft.SqlServer.Dac.DacServicesException] {
+    $dacServices.Close()
     throw ('Deployment failed: ''{0}'' Reason: ''{1}''' -f $_.Exception.Message, $_.Exception.InnerException.Message)
 }
 
