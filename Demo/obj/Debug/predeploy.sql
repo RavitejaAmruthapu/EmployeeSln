@@ -1,12 +1,13 @@
-﻿CREATE TABLE [dbo].[EMP] (
-    [EMPNO]    NUMERIC (4)    NOT NULL,
-    [ENAME]    VARCHAR (10)   NULL,
-    [JOB]      VARCHAR (9)    NULL,
-    [MGR]      NUMERIC (4)    NULL,
-    [HIREDATE] DATETIME       NULL,
-    [SAL]      NUMERIC (7, 2) NULL,
-    [COMM]     NUMERIC (7, 2) NULL,
-    [DEPTNO]   NUMERIC (2)    NULL
-);
-
+﻿/*
+ Pre-Deployment Script Template							
+--------------------------------------------------------------------------------------
+ This file contains SQL statements that will be executed before the build script.	
+ Use SQLCMD syntax to include a file in the pre-deployment script.			
+ Example:      :r .\myfile.sql								
+ Use SQLCMD syntax to reference a variable in the pre-deployment script.		
+ Example:      :setvar TableName MyTable							
+               SELECT * FROM [$(TableName)]					
+--------------------------------------------------------------------------------------
+*/
+create user teamcity
 GO

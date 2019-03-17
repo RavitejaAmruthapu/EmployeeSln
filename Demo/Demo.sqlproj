@@ -111,10 +111,10 @@
     <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
-    <PreDeploy Include="dbo\Tables\EMP.sql">
+    <None Include="dbo\Tables\EMP.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
-    </PreDeploy>
+    </None>
     <Build Include="dbo\Tables\DEPT.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
@@ -133,10 +133,12 @@
     </Build>
     <None Include="Security\teja1.sql" />
     <None Include="Security\teja1_1.sql" />
+    <PreDeploy Include="Scripts\Script.PreDeployment1.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Demo.publish.xml" />
     <None Include="Scripts\Insert.sql" />
+    <None Include="Scripts\CreateUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql">
