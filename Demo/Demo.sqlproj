@@ -111,10 +111,10 @@
     <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbo\Tables\EMP.sql">
+    <Build Include="dbo\Tables\EMP.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
-    </None>
+    </Build>
     <Build Include="dbo\Tables\DEPT.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
